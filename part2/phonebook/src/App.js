@@ -31,7 +31,6 @@ const App = (props) => {
   return (
     <div>
       <h1>Phonebook</h1>
-      
       <form onSubmit={addNote}>
         <p>Name:</p>
         <input value={newNote}
