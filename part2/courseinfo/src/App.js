@@ -14,7 +14,7 @@ console.log(sum)
       <ul>
       {courses.map(course => 
           <Course key={course.id} course={course}/>
-        )}
+      )}
       </ul>
       <Sum sum={sum}/>
       </div>
